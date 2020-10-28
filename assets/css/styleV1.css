@@ -1,0 +1,158 @@
+/* general style */
+body {
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-family: "Trip Sans Reg";
+}
+
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Trip Sans Med";
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 64.8px;
+}
+h1 span {
+  color: #ff5d5d;
+}
+
+/* utilities */
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* header */
+header {
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+header nav {height: 100%;}
+
+header input {
+  border: solid 1px #c5c5c5;
+  height: 40px;
+  border-radius: 12px;
+  width: 350px;
+  outline: none;
+}
+
+#logo {
+  height: 40px;
+  margin-right: 28px;
+}
+
+header nav a {
+  border: 2px transparent solid;
+  padding: 12px;
+  border-radius: 12px;
+  margin-right: 6px;
+  color: black;
+  font-weight: 700;
+}
+
+header nav a:hover {
+  border-color: black;
+  box-sizing: content-box;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+  color: white;
+  background-color: black;
+  border-width: 0;
+  border-radius: 20px;
+}
+
+/* main*/
+nav.subtitle {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.subtitle > a {
+  display: flex;
+  padding: 12px;
+  border: 1px black solid;
+  color: black;
+  border-radius: 12px;
+  flex: 1;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+nav.subtitle > a:hover {
+  background-color: black;
+  color: white;
+}
+
+nav.subtitle > a:not(:last-child) {
+  margin-right: 14px;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  height: 430px;
+  margin-bottom: 50px;
+}
+
+.big-img img {
+  width: 99.8%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.small-imgs img {
+  width: 100%;
+  max-height: 50.8%;
+  object-fit: cover;
+}
+
+.big-img {
+  height: 100%;
+  flex: 2;
+  /*margin-right: 2px;*/
+}
+
+.small-imgs {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*.small-imgs img:first-child {
+  margin-bottom: 2px;
+}

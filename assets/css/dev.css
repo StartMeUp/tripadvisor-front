@@ -1,0 +1,14 @@
+.devbox {
+  border: 2px solid black;
+  box-sizing: content-box;
+}
+
+.devbg-red {
+  background-color: red;
+}
+.devbg-blue {
+  background-color: blue;
+}
+.devbg-grey {
+  background-color: grey;
+}
