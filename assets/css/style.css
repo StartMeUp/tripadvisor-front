@@ -33,7 +33,7 @@ a {
 
 /* header */
 header {
-  height: 80px;
+  height: 60px;
 }
 
 header .container {
@@ -56,7 +56,7 @@ header nav {
 header nav a {
   color: black;
   font-weight: bold;
-  padding: 12px 20px;
+  padding: 8px 10px;
   border: 2px transparent solid;
 }
 
@@ -66,17 +66,19 @@ header nav a:hover {
 }
 
 header nav a:not(:last-child) {
-  margin-right: 5px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
 }
 
 header nav a:last-child {
   color: white;
   background-color: black;
   border-radius: 30px;
-  padding: 12px 40px;
+  padding: 8px 20px;
 }
 
 header nav i {
   font-size: 18px;
-  margin-right: 8px;
+  margin-right: 10px;
 }
