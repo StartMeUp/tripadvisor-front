@@ -1,0 +1,138 @@
+/*nav*/
+#main-nav {
+  margin-top: 30px;
+}
+
+#main-nav nav {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-nav nav > a {
+  display: flex;
+  padding: 12px;
+  border: 1px black solid;
+  color: black;
+  border-radius: 12px;
+  flex: 1;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+#main-nav nav > a:hover {
+  background-color: black;
+  color: white;
+}
+
+#main-nav nav > a:not(:last-child) {
+  margin-right: 14px;
+}
+
+/*pictures*/
+.pictures {
+  display: grid;
+  grid-template-areas:
+    "bigpic bigpic smallpic1"
+    "bigpic bigpic smallpic2";
+  grid-gap: 2px;
+  height: 430px;
+  width: 100%;
+}
+
+.pictures img {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  height: auto;
+  max-height: 430px;
+}
+
+.bigpic {
+  grid-area: bigpic;
+}
+
+.bigpic img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.smallpic1 {
+  grid-area: smallpic1;
+}
+
+.smallpic1 img {
+  border-top-right-radius: 20px;
+  max-height: 215px;
+}
+
+.smallpic2 img {
+  border-bottom-right-radius: 20px;
+  max-height: 215px;
+}
+
+.smallpic2 {
+  grid-area: smallpic2;
+}
+
+/*breadcrumbs*/
+.breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+/*introduction*/
+.introduction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction .summary {
+  font-family: Georgia;
+  font-size: 20px;
+  flex: 4;
+  margin-right: 100px;
+}
+
+.introduction .map {
+  flex: 3;
+  color: black;
+}
+
+.introduction .map img {
+  width: 100%;
+  object-fit: cover;
+  height: 40%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.introduction .map .text {
+  background-color: #ff5d5d;
+  padding: 30px;
+  box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.introduction .map .text p {
+  margin: 16px 0;
+}
+
+.introduction .map .text span {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.introduction .map button {
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: 0;
+  background-color: black;
+  font-size: 18px;
+  outline: none;
+}

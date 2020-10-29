@@ -1,0 +1,34 @@
+#conseils .display-all {
+  text-align: right;
+}
+
+#conseils .display-all a {
+  color: #474747;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#conseils .topics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: black;
+}
+
+#conseils .topics > a {
+  color: black;
+  flex: 1;
+  padding: 0 8px;
+  border: 2px #e0e0e0 solid;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+#conseils .topics > a img {
+  height: 80px;
+}
+
+#conseils .topics > a:not(:last-child) {
+  margin-right: 20px;
+}
