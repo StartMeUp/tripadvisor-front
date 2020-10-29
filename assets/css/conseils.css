@@ -13,6 +13,7 @@
   justify-content: space-between;
   margin-top: 20px;
   color: black;
+  margin-bottom: 100px;
 }
 
 #conseils .topics > a {
@@ -23,6 +24,9 @@
   border-radius: 12px;
   display: flex;
   align-items: center;
+}
+
+#conseils .topics > a:hover {
 }
 
 #conseils .topics > a img {

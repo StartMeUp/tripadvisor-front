@@ -1,0 +1,24 @@
+#todos .todo-row {
+  display: flex;
+  justify-content: stretch;
+
+  width: 100%;
+  height: 345px;
+}
+
+#todos .todo-row .topic {
+  flex: 1;
+}
+
+#todos .todo-row .carousel {
+  flex: 3;
+  display: flex;
+  scrollbar-width: none;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+#todos .todo-row .carousel .todo {
+  width: 350px;
+  flex-shrink: 0;
+}

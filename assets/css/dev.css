@@ -4,10 +4,10 @@
 }
 
 .devbg-red {
-  background-color: red;
+  background-color: rgb(253, 177, 177);
 }
 .devbg-blue {
-  background-color: blue;
+  background-color: rgb(209, 209, 255);
 }
 .devbg-grey {
   background-color: grey;
