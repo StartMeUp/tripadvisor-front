@@ -1,0 +1,55 @@
+@media (min-width: 768px) {
+  /***** HEADER *****/
+
+  header .icon-menu_bars,
+  header .icon-search,
+  header nav span {
+    display: none;
+  }
+
+  header .container {
+    height: 60px;
+  }
+
+  header .logo-input {
+    flex: 1;
+  }
+
+  header input {
+    flex: 1;
+    margin: 0 30px;
+    display: block;
+    outline: none;
+    height: 36px;
+    border-color: var(--light-grey);
+    border-radius: 8px;
+    max-width: 350px;
+  }
+
+  header .logo {
+    height: 36px;
+  }
+
+  header nav,
+  header nav a {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav span {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  header nav a:not(:last-child) {
+    margin-right: 30px;
+  }
+  header nav .button {
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: black;
+    font-weight: bold;
+  }
+}

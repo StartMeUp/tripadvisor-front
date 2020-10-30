@@ -1,0 +1,12 @@
+@media (min-width: 1024px) {
+  /*common rules*/
+
+  /*HEADER*/
+  header nav span {
+    display: inline;
+  }
+
+  header .logo {
+    height: 40px;
+  }
+}

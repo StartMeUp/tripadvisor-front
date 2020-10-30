@@ -1,0 +1,114 @@
+/*common rule*/
+:root {
+  --light-grey: #e0e0e0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Trip Sans Reg";
+  color: #474747;
+}
+
+i {
+  font-family: "tripadvisor";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Trip Sans Med";
+  color: black;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 64.8px;
+}
+h1 span {
+  color: #ff5d5d;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 0 24px;
+  max-width: 1328px;
+  margin: auto;
+}
+
+section {
+  margin: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.section-title span {
+  padding: 0 20px;
+  background-color: white;
+}
+
+.section-title:before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-bottom: 1px solid black;
+}
+
+/* HEADER */
+header .container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+header nav,
+header input {
+  display: none;
+}
+
+header .logo {
+  height: 30px;
+}
+
+header .logo-input {
+  display: flex;
+  align-items: center;
+}
