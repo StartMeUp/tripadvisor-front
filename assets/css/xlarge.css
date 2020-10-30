@@ -1,8 +1,5 @@
 @media (min-width: 1328px) {
   /*Common rules*/
-  h1 {
-    font-size: 54px;
-  }
 
   /*Main nav*/
   #main-nav nav .flights {
@@ -22,5 +19,14 @@
 
   #main-nav nav a:not(:last-child) {
     margin-right: 20px;
+  }
+
+  /*banner*/
+  #banner {
+    height: 430px;
+  }
+
+  #banner .col-2 {
+    width: 480px;
   }
 }

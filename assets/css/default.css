@@ -117,7 +117,7 @@ header .logo-input {
 
 /*Main nav*/
 #main-nav nav {
-  margin-top: 10px;
+  margin: 10px 0;
   font-weight: bold;
   display: flex;
   overflow-x: scroll;
@@ -125,6 +125,7 @@ header .logo-input {
 }
 
 #main-nav nav a {
+  color: black;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -139,4 +140,40 @@ header .logo-input {
 
 #main-nav nav a:not(:last-child) {
   margin-right: 15px;
+}
+
+/*BANNER*/
+#banner {
+  padding: 0;
+  height: 276px;
+}
+
+#banner .col-1 {
+  position: relative;
+  height: 100%;
+}
+
+#banner .col-2 {
+  display: none;
+}
+
+#banner img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+#banner .all-photos {
+  color: white;
+  padding: 2px 8px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+#banner .all-photos i {
+  font-size: 1.2em;
 }

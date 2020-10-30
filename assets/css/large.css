@@ -9,4 +9,13 @@
   header .logo {
     height: 40px;
   }
+
+  /*banner*/
+  #banner {
+    height: 372px;
+  }
+
+  #banner .col-2 {
+    width: 402px;
+  }
 }
