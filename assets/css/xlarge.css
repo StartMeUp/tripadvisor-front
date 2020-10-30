@@ -1,2 +1,26 @@
 @media (min-width: 1328px) {
+  /*Common rules*/
+  h1 {
+    font-size: 54px;
+  }
+
+  /*Main nav*/
+  #main-nav nav .flights {
+    display: none;
+  }
+
+  #main-nav nav {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  #main-nav nav a {
+    width: initial;
+    margin-bottom: 0 !important;
+    flex: 1;
+  }
+
+  #main-nav nav a:not(:last-child) {
+    margin-right: 20px;
+  }
 }

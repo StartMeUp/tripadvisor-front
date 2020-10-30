@@ -9,6 +9,7 @@
 
   header .container {
     height: 60px;
+    font-weight: bold;
   }
 
   header .logo-input {
@@ -52,4 +53,33 @@
     background-color: black;
     font-weight: bold;
   }
+
+  /*Main nav*/
+  #main-nav nav {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
+  #main-nav nav a {
+    width: calc(100% / 4 - 20px);
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  #main-nav nav a:nth-child(1),
+  #main-nav nav a:nth-child(2),
+  #main-nav nav a:nth-child(3),
+  #main-nav nav a:nth-child(4) {
+    margin-bottom: 20px;
+  }
+
+  #main-nav nav a:not(:nth-child(4n)) {
+    margin-right: 20px;
+  }
+
+  #main-nav nav a span {
+    margin: 0;
+  }
+
+  /*end media query*/
 }
