@@ -24,7 +24,6 @@ body {
 i {
   font-family: "tripadvisor";
   font-size: 1.5rem;
-  font-weight: inherit;
 }
 
 h1,
@@ -35,7 +34,8 @@ h5 {
   font-family: "Trip Sans Med";
   color: black;
   letter-spacing: 0.02em;
-  line-height: 1.4em;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
 }
 
 h1,
@@ -188,4 +188,40 @@ header .logo-input {
 
 #breadcrumbs {
   display: none;
+}
+
+/*Presentation*/
+#presentation .summary {
+  margin-bottom: 54px;
+  font-family: Georgia;
+}
+
+#presentation .create {
+  color: black;
+  background-color: var(--pink);
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#presentation .create p {
+  margin-bottom: 20px;
+}
+
+#presentation .create button {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 16px;
+  outline: none;
+  line-height: 20px;
+  font-weight: bold;
+  border: 0;
+}
+
+#presentation .trip img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }

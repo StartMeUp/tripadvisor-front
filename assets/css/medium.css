@@ -142,5 +142,30 @@
     margin-left: 0;
   }
 
+  /*Presentation*/
+
+  #presentation .summary {
+    font-size: 20px;
+  }
+
+  #presentation .trip {
+    display: flex;
+  }
+
+  #presentation .create {
+    flex: 1;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: initial;
+  }
+
+  #presentation .trip img {
+    flex: 1;
+    width: 50%;
+    border-bottom-left-radius: initial;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
   /*end media query*/
 }
