@@ -64,4 +64,20 @@
   #travel-advice .topics a:not(:last-child) {
     margin-right: 20px;
   }
+
+  /*footer*/
+
+  footer .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  footer .info {
+    flex: 2;
+    margin-right: 30px;
+  }
+
+  footer .selectors {
+    flex: 1;
+  }
 }

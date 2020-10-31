@@ -342,3 +342,46 @@ header .logo-input {
   color: var(--green);
   font-size: 16px;
 }
+
+/*FOOTER*/
+footer {
+  background-color: #faf1ed;
+  padding: 30px 0;
+  font-size: 12px;
+}
+
+footer img {
+  width: 40px;
+  float: left;
+  margin: 0 12px 12px 0;
+}
+
+footer a {
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+footer p {
+  margin-bottom: 6px;
+}
+
+footer form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer form select:first-child {
+  margin-right: 20px;
+}
+
+footer form select {
+  flex: 1;
+  outline: none;
+  border: 2px solid var(--light-grey);
+  border-radius: 6px;
+  height: 30px;
+}
