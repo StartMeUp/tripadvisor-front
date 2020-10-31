@@ -1,6 +1,8 @@
 @media (min-width: 1024px) {
   /*common rules*/
-
+  section {
+    margin: 60px 0;
+  }
   /*HEADER*/
   header nav span {
     display: inline;

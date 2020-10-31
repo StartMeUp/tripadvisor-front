@@ -30,7 +30,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h2.section-title span {
   font-family: "Trip Sans Med";
   color: black;
   letter-spacing: 0.02em;
@@ -39,19 +40,31 @@ h5 {
 }
 
 h1,
-h2 {
+h2,
+h2.section-title span {
   font-weight: bold;
 }
 
 h1 {
   font-size: 2em;
 }
-h2 {
-  font-size: 1.5em;
+h2,
+h2.section-title span {
+  font-size: 1.3em;
 }
 
 h1 span {
   color: var(--pink);
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1rem;
+  margin-bottom: 0;
 }
 
 a {
@@ -250,11 +263,82 @@ header .logo-input {
 
 #travel-advice .topics a {
   padding: 0 8px;
-  border: 2px #e0e0e0 solid;
+  border: 2px var(--light-grey) solid;
   border-radius: 12px;
   width: calc(50% - 10px);
 }
 
 #travel-advice .topics a:nth-child(-n + 2) {
   margin-bottom: 20px;
+}
+
+/*TODOS*/
+#todos .topic {
+  margin-bottom: 30px;
+}
+#todos .topic a {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 16px 0 30px 0;
+}
+
+#todos .topic p {
+  font-family: Georgia;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+#todos .carousel {
+  display: flex;
+  overflow-x: scroll;
+}
+
+#todos .carousel .todo {
+  flex-shrink: 0;
+  width: 285px;
+}
+
+#todos .carousel .todo:hover {
+  opacity: 0.8;
+}
+
+#todos .carousel .todo:not(:last-child) {
+  margin-right: 16px;
+}
+
+#todos .carousel .todo .picture {
+  position: relative;
+}
+
+#todos .carousel .todo .picture > div {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#todos .carousel .todo img {
+  object-fit: cover;
+  height: 190px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+#todos .carousel .todo .description {
+  font-size: 14px;
+}
+
+#todos .carousel .reviews {
+  margin-bottom: 12px;
+}
+
+#todos .carousel .reviews i {
+  color: var(--green);
+  font-size: 16px;
 }

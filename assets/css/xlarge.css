@@ -29,4 +29,22 @@
   #banner .col-2 {
     width: 480px;
   }
+
+  /*TODOS*/
+
+  #todos .carousel .todo {
+    width: 307px;
+  }
+
+  #todos .carousel .todo img {
+    height: 205px;
+  }
+
+  #todos .topic {
+    flex: 1;
+  }
+
+  #todos .carousel {
+    flex: 3;
+  }
 }

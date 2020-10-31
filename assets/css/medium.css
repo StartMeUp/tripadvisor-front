@@ -174,5 +174,28 @@
     align-items: center;
   }
 
+  /*TODOS*/
+
+  #todos .wrapper {
+    display: flex;
+  }
+
+  #todos .topic {
+    flex: 1;
+    padding-right: 30px;
+  }
+
+  #todos .carousel {
+    flex: 2;
+  }
+
+  #todos .carousel .todo {
+    width: 232px;
+  }
+
+  #todos .carousel .todo img {
+    height: 155px;
+  }
+
   /*end media query*/
 }
