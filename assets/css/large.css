@@ -47,30 +47,19 @@
     border-bottom-left-radius: 20px;
     border-top-right-radius: initial;
   }
+
+  /*travel advice*/
+  #travel-advice .topics {
+    flex-wrap: initial;
+  }
+  #travel-advice .topics a {
+    flex: 1;
+    width: initial;
+    margin-bottom: 0 !important;
+    padding: 8px 0;
+  }
+
+  #travel-advice .topics a:not(:last-child) {
+    margin-right: 20px;
+  }
 }
-
-/*
-#presentation .summary {
-    font-size: 20px;
-  }
-
-  #presentation .trip {
-    display: flex;
-  }
-
-  #presentation .create {
-    flex: 1;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: initial;
-  }
-
-  #presentation .trip img {
-    flex: 1;
-    width: 50%;
-    border-bottom-left-radius: initial;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-
-*/

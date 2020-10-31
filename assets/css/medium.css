@@ -167,5 +167,12 @@
     border-top-right-radius: 20px;
   }
 
+  /*travel advice*/
+
+  #travel-advice .topics a {
+    display: flex;
+    align-items: center;
+  }
+
   /*end media query*/
 }
