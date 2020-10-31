@@ -120,5 +120,27 @@
     border-bottom-right-radius: 20px;
   }
 
+  /*breadcrumbs*/
+
+  #breadcrumbs {
+    margin: 20px auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #breadcrumbs i {
+    font-size: inherit;
+  }
+
+  #breadcrumbs > div a {
+    margin: 0 4px;
+  }
+
+  #breadcrumbs > div a:first-child {
+    margin-left: 0;
+  }
+
   /*end media query*/
 }
