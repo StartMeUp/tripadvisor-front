@@ -140,6 +140,11 @@ section {
   font-size: 16px;
 }
 
+.modal .form-container i:hover,
+.modal form button {
+  cursor: pointer;
+}
+
 .modal .form-container img {
   max-width: 210px;
   margin-bottom: 20px;
