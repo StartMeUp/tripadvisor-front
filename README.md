@@ -1,3 +1,6 @@
-# tripadvisor-front
+# tripadvisor clone
 
-Exercise to reproduce a page of tripAdvisor
+voir le résultat: https://tripadvisor-clone-smu.netlify.app/
+
+Objectif de l'exercice:
+- interface frontend entièrement responsive, adaptative tous types d'écrans
